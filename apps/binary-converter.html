@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7f4">
+    <meta name="description" content="Dezimalzahlen in Binärzahlen umrechnen und verstehen.">
+    <title>Binär-Umrechner | Grundlagenfach Informatik</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="./binary-converter.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M5 5.5h5v5H5zm9 0h5v5h-5zm-9 9h5v5H5zm9 0h5v5h-5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        Informatik entdecken
+      </a>
+      <span class="header-note">Interaktive Lern-Apps</span>
+    </header>
+
+    <main class="container">
+      <section class="workspace" aria-labelledby="binary-title">
+        <a class="back-button" href="../index.html">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16 10H5m5 5-5-5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Alle Lern-Apps
+        </a>
+        <p class="eyebrow">Zahlen &amp; Daten</p>
+        <h1 id="binary-title">Binär-Umrechner</h1>
+        <p class="workspace-intro">Computer speichern Informationen als Bits. Ein Bit ist entweder 0 oder 1. Gib eine Zahl zwischen 0 und 255 ein und sieh dir ihre 8-Bit-Binärdarstellung an.</p>
+
+        <div class="demo-panel">
+          <h2>Zahl umrechnen</h2>
+          <div class="converter-grid">
+            <div>
+              <label class="field-label" for="decimal-input">Dezimalzahl (0–255)</label>
+              <input class="text-field" id="decimal-input" type="number" min="0" max="255" step="1" value="42" inputmode="numeric">
+            </div>
+            <span class="swap-mark" aria-hidden="true">⇄</span>
+            <div>
+              <label class="field-label" for="binary-input">Binärzahl (8 Bit)</label>
+              <input class="text-field binary" id="binary-input" type="text" inputmode="numeric" maxlength="8" value="00101010" autocomplete="off">
+            </div>
+          </div>
+          <p class="helper-text" id="binary-feedback" aria-live="polite">42 im Zehnersystem entspricht 00101010 im Binärsystem.</p>
+          <button class="button secondary" id="random-number" type="button">Zufallszahl ausprobieren</button>
+        </div>
+      </section>
+
+      <footer class="site-footer">Grundlagenfach Informatik · Kleine Apps, grosse Ideen</footer>
+    </main>
+  </body>
+</html>
