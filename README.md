@@ -1,11 +1,11 @@
-# Daylight
+# Grundlagenfach Informatik
 
-A small, responsive daily planner built with plain HTML, CSS, and JavaScript. Tasks are saved in the browser with `localStorage`; there is no server, build step, or dependency to install.
+Eine kleine, responsive Sammlung interaktiver Lern-Apps zu Binärzahlen, Logikgattern und Informatik-Grundlagen. Die Apps verwenden HTML, CSS und JavaScript – ohne Server, Build-Schritt oder zusätzliche Abhängigkeiten.
 
-## Run locally
+## Lokal starten
 
-Open `index.html` in a browser.
+`index.html` direkt im Browser öffnen.
 
-## Publish with GitHub Pages
+## Mit GitHub Pages veröffentlichen
 
-This repository is configured to publish the `main` branch from the root with GitHub Pages. Push changes to `main`; the Pages deployment runs automatically. The live site is [neukom96.github.io](https://neukom96.github.io/).
+Dieses Repository veröffentlicht den Inhalt des Hauptverzeichnisses auf dem Branch `main` mit GitHub Pages. Änderungen an `main` werden automatisch bereitgestellt. Die Website ist unter [neukom96.github.io](https://neukom96.github.io/) erreichbar.
